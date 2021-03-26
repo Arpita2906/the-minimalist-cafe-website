@@ -1,0 +1,99 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 100%;
+	flex-wrap: wrap;
+}
+.menu{
+	width: 100%;
+	display: flex;
+	background-color: pink;
+}
+.menu1{
+	height:350px;
+	width: 300px;
+	background-color: yellow;
+	border:1px solid black;
+	margin: 0 10px;
+	padding-left:20px;
+	margin-top: 10px;
+}
+.img{
+	margin-left: 200px;
+	margin-top: 30px;
+	height: 100%;
+}
+.img img{
+	height: 100%;
+	width: 300px;
+
+}
+.menu1 li{
+	display: flex;
+	justify-content: space-between;
+
+}
+.menu2{
+	height:350px;
+	width: 300px;
+	background-color: yellow;
+	border:1px solid black;
+	margin: 0 10px;
+	padding-left:20px;
+	margin-top: 10px;
+}
+.menu2 li{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.container{
+  max-width:1170px;
+  margin: auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer
+{
+  background-color: rgb(235,243,255);
+  padding: 70px 0px;
+}
+.footer-col{
+  width:50%;
+  padding: 0 15px;
+}
+.footer-col .social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  margin:0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+  text-decoration: none;
+  background-color: transparent;
+}
+.footer-col .social-links spam
+{
+  font-weight: bold;
+}
+.footer-col .social-links a
+{
+  color: black;
+}
+.footer-col .social-links a:hover
+{
+  background: none;
+    color: #0082e6;
+}
+.footer .footer-bottom
+{
+  padding-top: 20px;
+  text-align: center;
+}
