@@ -2,6 +2,11 @@
 	margin: 0;
 	padding: 0;
 }
+h1{
+	text-align: center;
+	width: 100%;
+
+}
 .container{
 	width: 100%;
 	flex-wrap: wrap;
@@ -11,7 +16,7 @@
 	display: flex;
 	background-color: pink;
 }
-.menu1{
+.menu1,.menu2,.menu3,.menu4{
 	height:350px;
 	width: 300px;
 	background-color: yellow;
@@ -30,33 +35,18 @@
 	width: 300px;
 
 }
-.menu1 li{
+.menu1 li,.menu2 li, .menu3 li,.menu4 li{
 	display: flex;
 	justify-content: space-between;
 
 }
-.menu2{
-	height:350px;
-	width: 300px;
-	background-color: yellow;
-	border:1px solid black;
-	margin: 0 10px;
-	padding-left:20px;
-	margin-top: 10px;
-}
-.menu2 li{
-	display: flex;
-	justify-content: space-between;
-
-}
-
 .container{
   max-width:1170px;
   margin: auto;
 }
 .row{
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .footer
 {

@@ -4,19 +4,19 @@
 	<meta charset="utf-8"
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>the minimalist cafe</title>
-	<link rel="stylesheet" type="text/css" href="./style.css">
+	<link rel="stylesheet" type="text/css" href="./index.css">
 </head>
 <body> 
-	<h1>The Minimalist Cafe</h1>
+	<h3>Login form...</h3>
 	<div class="form" id="about">
 		<form>
-			<label>Email: <input  placeholder=" Enter your email: " value=" " name="Email" type="email"/></label>
-			<label>Password: <input placeholder=" Enter your password: " value=" " name="Password" type="password"/></label>
-			<button>SUBMIT</button>
-
+			<label>Email: <input id="email" placeholder=" Enter your email: " value=" " name="Email" type="email" required/></label>
+			<label>Password: <input id="password" placeholder=" Enter your password: " value="" name="Password" type="password" required/></label>
+			<button id="submit">SUBMIT</button>
 		</form>
-
 	</div>
+	<div id="error"></div>
+	<script src="./index.js"></script>
 </body>
 </html>
 
